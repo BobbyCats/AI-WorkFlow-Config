@@ -1,0 +1,30 @@
+# Git Ignore
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if any future code is added)
+node_modules/
+__pycache__/
+.venv/
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# Secrets
+.env
+.env.local
+*.key
+*.pem

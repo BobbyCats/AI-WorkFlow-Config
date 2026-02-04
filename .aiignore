@@ -1,0 +1,44 @@
+# AI Ignore File
+# 列出不希望 AI 索引或处理的文件/目录
+# 语法类似 .gitignore
+
+# 依赖目录
+node_modules/
+vendor/
+.venv/
+__pycache__/
+
+# 构建输出
+dist/
+build/
+*.min.js
+*.min.css
+
+# 日志和临时文件
+*.log
+*.tmp
+.cache/
+
+# IDE 配置（可选保留）
+# .vscode/
+# .idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 敏感信息
+.env
+.env.local
+*.key
+*.pem
+secrets/
+
+# 大型二进制文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.mov
